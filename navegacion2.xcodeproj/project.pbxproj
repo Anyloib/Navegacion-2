@@ -14,6 +14,8 @@
 		858A4C35212F3DBA00012206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858A4C33212F3DBA00012206 /* LaunchScreen.storyboard */; };
 		858A4C40212F3DBA00012206 /* navegacion2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858A4C3F212F3DBA00012206 /* navegacion2Tests.swift */; };
 		858A4C4B212F3DBA00012206 /* navegacion2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858A4C4A212F3DBA00012206 /* navegacion2UITests.swift */; };
+		858A4C59212F41DC00012206 /* Perros Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858A4C58212F41DC00012206 /* Perros Controller.swift */; };
+		858A4C5B212F466A00012206 /* Gatos Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858A4C5A212F466A00012206 /* Gatos Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		858A4C46212F3DBA00012206 /* navegacion2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navegacion2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		858A4C4A212F3DBA00012206 /* navegacion2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navegacion2UITests.swift; sourceTree = "<group>"; };
 		858A4C4C212F3DBA00012206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858A4C58212F41DC00012206 /* Perros Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Perros Controller.swift"; sourceTree = "<group>"; };
+		858A4C5A212F466A00012206 /* Gatos Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gatos Controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,6 @@
 			children = (
 				858A4C29212F3DBA00012206 /* navegacion2 */,
 				858A4C3E212F3DBA00012206 /* navegacion2Tests */,
-				858A4C49212F3DBA00012206 /* navegacion2UITests */,
 				858A4C28212F3DBA00012206 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,10 +102,13 @@
 			children = (
 				858A4C2A212F3DBA00012206 /* AppDelegate.swift */,
 				858A4C2C212F3DBA00012206 /* ViewController.swift */,
+				858A4C49212F3DBA00012206 /* navegacion2UITests */,
 				858A4C2E212F3DBA00012206 /* Main.storyboard */,
 				858A4C31212F3DBA00012206 /* Assets.xcassets */,
 				858A4C33212F3DBA00012206 /* LaunchScreen.storyboard */,
 				858A4C36212F3DBA00012206 /* Info.plist */,
+				858A4C58212F41DC00012206 /* Perros Controller.swift */,
+				858A4C5A212F466A00012206 /* Gatos Controller.swift */,
 			);
 			path = navegacion2;
 			sourceTree = "<group>";
@@ -123,7 +129,7 @@
 				858A4C4C212F3DBA00012206 /* Info.plist */,
 			);
 			path = navegacion2UITests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				858A4C2D212F3DBA00012206 /* ViewController.swift in Sources */,
+				858A4C59212F41DC00012206 /* Perros Controller.swift in Sources */,
 				858A4C2B212F3DBA00012206 /* AppDelegate.swift in Sources */,
+				858A4C5B212F466A00012206 /* Gatos Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
